@@ -1,0 +1,345 @@
+.blackNav{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+body{
+    margin: 0;
+    font-family: "Syne",sans-serif;
+    font-weight: 700;
+}
+
+.offerNot{
+    color: white;
+    font-size: 11px;
+
+}
+
+.offerNot a{
+    color: white;
+}
+
+.sup{
+    color: white;
+    position: absolute;
+    right: 10px;
+    font-size: 11px;
+}
+
+/*img{
+    margin: 10px 40px;
+}*/
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 50px;
+}
+
+.navBtnsList {
+    display: flex;
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    justify-content:space-around;
+    
+}
+
+.navBtnsList a{
+    margin-right: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.navSymList{
+    display: flex;
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+.navSymList svg{
+    margin-right: 20px;
+}
+
+.mainDiv a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.mainDivPic{
+    width: 50%;
+}
+.mainDivAd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 605px;
+    flex-direction: column;
+    text-align: center;
+    width: calc(100% - 708px);
+    background-color: #00656b;
+
+}
+
+.mainDivAd h1{
+    text-decoration: none;
+    
+}
+
+.LuggagesDiv{
+    margin: 10px 70px;
+    display: flex;
+    gap: 15px;
+
+}
+
+.slides{
+    height: 518px;
+    width: 328;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    
+}
+
+.Slide1 .slidePic{
+    background-image: url(https://shop.americantourister.com/dw/image/v2/BBZB_PRD/on/demandware.static/-/Sites-product-catalog/default/dwaf768b4d/collections/_AT/Disney/500x500/856896976_2PC_1_Front34.jpg?sw=400&sh=400);
+    height: 310px;
+    width: 310px;
+    background-size: cover;    /* Ensures the image covers the entire div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+
+}
+
+.priceDiv p{
+    font-size: 14px;
+    font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: lighter;
+}
+
+.priceDiv span{
+    text-decoration: line-through;
+}
+
+.colorOptionDiv{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+
+.Slide3 .slidePic{
+    background-image: url(https://cdn-fsly.yottaa.net/596fc327312e58506e0fdb8d/shop.americantourister.com/v~4b.40/dw/image/v2/BBZB_PRD/on/demandware.static/-/Sites-product-catalog/default/dwc0cd3592/collections/_AT/Airconic/500x500/133281-0581-GROUP.jpg?sw=400&sh=400&yocs=c_e_);
+    height: 310px;
+    width: 310px;
+    background-size: cover;    /* Ensures the image covers the entire div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+
+}
+
+.switchOption img{
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background-position: center;
+}
+
+.quickShop a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+.Slide2 .slidePic{
+    background-image: url(https://shop.americantourister.com/dw/image/v2/BBZB_PRD/on/demandware.static/-/Sites-product-catalog/default/dw60628515/collections/_AT/Air-Move/500x500/153659-1552-GROUP.jpg?sw=400&sh=400);
+    height: 310px;
+    width: 310px;
+    background-size: cover;    /* Ensures the image covers the entire div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+
+}
+
+
+.new{
+    height: 30px;
+    width: 60px;
+    border-radius: 25px;
+    background-color: #c9d773;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    font-size: smaller;
+    cursor: pointer;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Slide4 .slidePic{
+    background-image: url(https://cdn-fsly.yottaa.net/596fc327312e58506e0fdb8d/shop.americantourister.com/v~4b.40/dw/image/v2/BBZB_PRD/on/demandware.static/-/Sites-product-catalog/default/dw0acabd31/collections/_AT/TriumphNX_A908/500x500/1366371776_2PC_Set.jpg?sw=400&sh=400&yocs=c_f_);
+    height: 310px;
+    width: 310px;
+    background-size: cover;    /* Ensures the image covers the entire div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+
+}
+.shopFlex{
+    margin: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.shop{
+    display: flex;
+    flex-direction: column;
+    width: 675.2px;
+    justify-content: center;
+}
+
+.shop img{
+    height: 675.2px;
+    width: 675.2px;
+}
+
+.shopText{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+h1{
+    margin: 10px;
+}
+
+.saleDiv{
+    height: 300px;
+    margin: 20px;
+    background-color: #f7cf81;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.saleDiv{
+    font-weight: bolder;
+}
+
+.featuresDiv{
+    display: flex;
+    margin: auto;
+    width: 1342px;
+    justify-content: space-around;
+
+
+}
+.features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.features p{
+    font-size: 11px;
+}
+
+.signupDiv{
+    height: 200px;
+    background-color: #fafafa; 
+    display: flex;
+    padding: 10px 80px;
+    padding-right: 160px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.signupHeading{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+}
+
+.SML{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.emailInput{
+    width: 100%;
+    height: 50px;
+    background-color: #fafafa;
+    border: 0;
+    border-bottom: black solid 1px;
+}
+
+.arrowBtn{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    height: 40px;
+    background-color: #fafafa;
+    border: 0;
+}
+
+.footer{
+    height: 300px;
+    margin: 0;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+.lists{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+
+}
+
+.lists a{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+    
+}
+.lists li{
+    margin: 0;
+    list-style-type: none;
+}
+
+.copyrightDiv{
+    margin: 0 100px;
+    display: flex;
+    gap: 30px;
+    width: fit-content;
+    padding-bottom: 50px;
+}
+
+.copyrightDiv p{
+    font-size: 12px;color: black;font-weight: 500;
+}
